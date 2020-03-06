@@ -1,0 +1,11 @@
+[package]
+name = "logistic_robot"
+version = "0.1.0"
+authors = ["maymike321 <yamekim@comcast.net>"]
+edition = "2018"
+
+[dependencies]
+fraction = "0.6.2"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serenity = "0.8"

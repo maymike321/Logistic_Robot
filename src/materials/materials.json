@@ -1,0 +1,2593 @@
+{
+    "raw": [
+        "Wood",
+        "Coal",
+        "Iron Ore",
+        "Copper Ore",
+        "Stone",
+        "Water",
+        "Uranium Ore",
+        "Uranium-235",
+        "Uranium-238",
+        "Crude Oil",
+        "Petroleum Gas",
+        "Light Oil",
+        "Heavy Oil",
+        "Lubricant",
+        "Solid Fuel"
+    ],
+    "non_raw": [
+        {
+            "name": "Iron Plate",
+            "producer": "Furnace",
+            "resources": [
+                {
+                    "name": "Iron Ore",
+                    "amount": 1
+                }
+            ],
+            "time": 3.2,
+            "amount": 1
+        },
+        {
+            "name": "Copper Plate",
+            "producer": "Furnace",
+            "resources": [
+                {
+                    "name": "Copper Ore",
+                    "amount": 1
+                }
+            ],
+            "time": 3.2,
+            "amount": 1
+        },
+        {
+            "name": "Steel Plate",
+            "producer": "Furnace",
+            "resources": [
+                {
+                    "name": "Iron Ore",
+                    "amount": 5
+                }
+            ],
+            "time": 16,
+            "amount": 1
+        },
+        {
+            "name": "Stone Brick",
+            "producer": "Furnace",
+            "resources": [
+                {
+                    "name": "Stone",
+                    "amount": 2
+                }
+            ],
+            "time": 3.2,
+            "amount": 1
+        },
+        {
+            "name": "Sulfur",
+            "producer": "Chemical Plant",
+            "resources": [
+                {
+                    "name": "Petroleum Gas",
+                    "amount": 30
+                },
+                {
+                    "name": "Water",
+                    "amount": 30
+                }
+            ],
+            "time": 1,
+            "amount": 2
+        },
+        {
+            "name": "Plastic",
+            "producer": "Chemical Plant",
+            "resources": [
+                {
+                    "name": "Coal",
+                    "amount": 1
+                },
+                {
+                    "name": "Petroleum Gas",
+                    "amount": 20
+                }
+            ],
+            "time": 1,
+            "amount": 2
+        },
+        {
+            "name": "Battery",
+            "producer": "Chemical Plant",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                },
+                {
+                    "name": "Sulfuric Acid",
+                    "amount": 20
+                }
+            ],
+            "time": 4,
+            "amount": 1
+        },
+        {
+            "name": "Iron Stick",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 2
+        },
+        {
+            "name": "Iron Gear Wheel",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Copper Cable",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 2
+        },
+        {
+            "name": "Electronic Circuit",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Cable",
+                    "amount": 3
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Advanced Circuit",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Cable",
+                    "amount": 4
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 2
+                },
+                {
+                    "name": "Plastic",
+                    "amount": 2
+                }
+            ],
+            "time": 6,
+            "amount": 1
+        },
+        {
+            "name": "Processing Unit",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 2
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 20
+                },
+                {
+                    "name": "Sulfuric Acid",
+                    "amount": 5
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Engine Unit",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 1
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 2
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Electric Engine Unit",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 2
+                },
+                {
+                    "name": "Engine Unit",
+                    "amount": 1
+                },
+                {
+                    "name": "Lubricant",
+                    "amount": 15
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Flying Robot Frame",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Battery",
+                    "amount": 2
+                },
+                {
+                    "name": "Electric Engine Unit",
+                    "amount": 1
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 20,
+            "amount": 1
+        },
+        {
+            "name": "Empty Barrel",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Steel Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 1,
+            "amount": 1
+        },
+        {
+            "name": "Explosives",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Coal",
+                    "amount": 1
+                },
+                {
+                    "name": "Sulfur",
+                    "amount": 1
+                },
+                {
+                    "name": "Water",
+                    "amount": 10
+                }
+            ],
+            "time": 4,
+            "amount": 2
+        },
+        {
+            "name": "Sulfuric Acid",
+            "producer": "Chemical Plant",
+            "resources": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                },
+                {
+                    "name": "Sulfur",
+                    "amount": 5
+                },
+                {
+                    "name": "Water",
+                    "amount": 100
+                }
+            ],
+            "time": 1,
+            "amount": 50
+        },
+        {
+            "name": "Automation Science Pack",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 1
+                }
+            ],
+            "time": 5,
+            "amount": 1
+        },
+        {
+            "name": "Logistic Science Pack",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Inserter",
+                    "amount": 1
+                },
+                {
+                    "name": "Transport Belt",
+                    "amount": 1
+                }
+            ],
+            "time": 6,
+            "amount": 1
+        },
+        {
+            "name": "Chemical Science Pack",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Engine Unit",
+                    "amount": 2
+                },
+                {
+                    "name": "Sulfur",
+                    "amount": 1
+                }
+            ],
+            "time": 24,
+            "amount": 3
+        },
+        {
+            "name": "Military Science Pack",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Grenade",
+                    "amount": 1
+                },
+                {
+                    "name": "Piercing Rounds Magazine",
+                    "amount": 1
+                },
+                {
+                    "name": "Wall",
+                    "amount": 2
+                }
+            ],
+            "time": 10,
+            "amount": 2
+        },
+        {
+            "name": "Production Science Pack",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electric Furnace",
+                    "amount": 1
+                },
+                {
+                    "name": "Productivity Module",
+                    "amount": 1
+                },
+                {
+                    "name": "Rail",
+                    "amount": 30
+                }
+            ],
+            "time": 21,
+            "amount": 3
+        },
+        {
+            "name": "Utility Science Pack",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Flying Robot Frame",
+                    "amount": 1
+                },
+                {
+                    "name": "Low Density Structure",
+                    "amount": 3
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 2
+                }
+            ],
+            "time": 21,
+            "amount": 3
+        },
+        {
+            "name": "Space Science Pack",
+            "producer": "Rocket Silo",
+            "resources": [
+                {
+                    "name": "Rocket Part",
+                    "amount": 100
+                },
+                {
+                    "name": "Satellite",
+                    "amount": 1
+                }
+            ],
+            "time": 0,
+            "amount": 1000
+        },
+        {
+            "name": "Land Mine",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Explosives",
+                    "amount": 2
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 5,
+            "amount": 4
+        },
+        {
+            "name": "Grenade",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Coal",
+                    "amount": 10
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 8,
+            "amount": 4
+        },
+        {
+            "name": "Cluster Grenade",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Explosives",
+                    "amount": 5
+                },
+                {
+                    "name": "Grenade",
+                    "amount": 5
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Defender Capsule",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 3
+                },
+                {
+                    "name": "Piercing Rounds Magazine",
+                    "amount": 3
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Poison Capsule",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Coal",
+                    "amount": 10
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 3
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Slowdown Capsule",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Coal",
+                    "amount": 5
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 2
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Distractor Capsule",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Defender Capsule",
+                    "amount": 4
+                }
+            ],
+            "time": 15,
+            "amount": 1
+        },
+        {
+            "name": "Destroyer Capsule",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Distractor Capsule",
+                    "amount": 4
+                },
+                {
+                    "name": "Speed Module",
+                    "amount": 1
+                }
+            ],
+            "time": 15,
+            "amount": 1
+        },
+        {
+            "name": "Atomic Bomb",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Explosives",
+                    "amount": 10
+                },
+                {
+                    "name": "Rocket Control Unit",
+                    "amount": 10
+                },
+                {
+                    "name": "Uranium-235",
+                    "amount": 30
+                }
+            ],
+            "time": 50,
+            "amount": 1
+        },
+        {
+            "name": "Firearm Magazine",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 4
+                }
+            ],
+            "time": 1,
+            "amount": 1
+        },
+        {
+            "name": "Piercing Rounds Magazine",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 5
+                },
+                {
+                    "name": "Firearm Magazine",
+                    "amount": 1
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 3,
+            "amount": 1
+        },
+        {
+            "name": "Shotgun Shells",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 2
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 3,
+            "amount": 1
+        },
+        {
+            "name": "Piercing Shotgun Shells",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 5
+                },
+                {
+                    "name": "Shotgun Shells",
+                    "amount": 2
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Rocket",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 1
+                },
+                {
+                    "name": "Explosives",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Explosive Rocket",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Explosives",
+                    "amount": 2
+                },
+                {
+                    "name": "Rocket",
+                    "amount": 1
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Flamethrower Ammo",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Crude Oil",
+                    "amount": 100
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 6,
+            "amount": 1
+        },
+        {
+            "name": "Cannon Shell",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Explosives",
+                    "amount": 1
+                },
+                {
+                    "name": "Plastic",
+                    "amount": 2
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Explosive Cannon Shell",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Explosives",
+                    "amount": 2
+                },
+                {
+                    "name": "Plastic",
+                    "amount": 2
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Artilery Shell",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Explosive Cannon Shell",
+                    "amount": 4
+                },
+                {
+                    "name": "Explosives",
+                    "amount": 8
+                },
+                {
+                    "name": "Radar",
+                    "amount": 1
+                }
+            ],
+            "time": 15,
+            "amount": 1
+        },
+        {
+            "name": "Modular Armor",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 30
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 50
+                }
+            ],
+            "time": 15,
+            "amount": 1
+        },
+        {
+            "name": "Power Armor",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electric Engine Unit",
+                    "amount": 20
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 40
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 40
+                }
+            ],
+            "time": 20,
+            "amount": 1
+        },
+        {
+            "name": "Personal Battery",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Battery",
+                    "amount": 5
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 10
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Personal Battery MK2",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Personal Battery",
+                    "amount": 10
+                },
+                {
+                    "name": "Low Density Structure",
+                    "amount": 5
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 15
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Energy Shield",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 10
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Energy Shield MK2",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Energy Shield",
+                    "amount": 10
+                },
+                {
+                    "name": "Low Density Structure",
+                    "amount": 5
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 5
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Portable Solar Panel",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 2
+                },
+                {
+                    "name": "Solar Panel",
+                    "amount": 1
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Portable Funsion Reactor",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Low Density Structure",
+                    "amount": 50
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 200
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Personal Laser Defense",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Laser Turret",
+                    "amount": 5
+                },
+                {
+                    "name": "Low Density Structure",
+                    "amount": 5
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 20
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Discharge Defense",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Laser Turret",
+                    "amount": 10
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 5
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 20
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Exoskeleton",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electric Engine Unit",
+                    "amount": 30
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 10
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 20
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Efficency Module",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 5
+                }
+            ],
+            "time": 15,
+            "amount": 1
+        },
+        {
+            "name": "Efficency Module 2",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Efficency Module",
+                    "amount": 4
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 5
+                }
+            ],
+            "time": 30,
+            "amount": 1
+        },
+        {
+            "name": "Efficency Module 3",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Efficency Module 2",
+                    "amount": 5
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 5
+                }
+            ],
+            "time": 60,
+            "amount": 1
+        },
+        {
+            "name": "Productivity Module",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 5
+                }
+            ],
+            "time": 15,
+            "amount": 1
+        },
+        {
+            "name": "Productivity Module 2",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 5
+                },
+                {
+                    "name": "Productivity Module",
+                    "amount": 4
+                }
+            ],
+            "time": 30,
+            "amount": 1
+        },
+        {
+            "name": "Productivity Module 3",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 5
+                },
+                {
+                    "name": "Productivity Module 2",
+                    "amount": 5
+                }
+            ],
+            "time": 60,
+            "amount": 1
+        },
+        {
+            "name": "Speed Module",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 5
+                }
+            ],
+            "time": 15,
+            "amount": 1
+        },
+        {
+            "name": "Speed Module 2",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 5
+                },
+                {
+                    "name": "Speed Module",
+                    "amount": 4
+                }
+            ],
+            "time": 30,
+            "amount": 1
+        },
+        {
+            "name": "Speed Module 3",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 5
+                },
+                {
+                    "name": "Speed Module 2",
+                    "amount": 5
+                }
+            ],
+            "time": 60,
+            "amount": 1
+        },
+        {
+            "name": "Transport Belt",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 2
+        },
+        {
+            "name": "Underground Belt",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 10
+                },
+                {
+                    "name": "Transport Belt",
+                    "amount": 5
+                }
+            ],
+            "time": 1,
+            "amount": 2
+        },
+        {
+            "name": "Splitter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 5
+                },
+                {
+                    "name": "Transport Belt",
+                    "amount": 4
+                }
+            ],
+            "time": 1,
+            "amount": 1
+        },
+        {
+            "name": "Fast Transport Belt",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 5
+                },
+                {
+                    "name": "Transport Belt",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Fast Underground Belt",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 40
+                },
+                {
+                    "name": "Underground Belt",
+                    "amount": 2
+                }
+            ],
+            "time": 2,
+            "amount": 2
+        },
+        {
+            "name": "Fast Splitter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 10
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 10
+                },
+                {
+                    "name": "Splitter",
+                    "amount": 1
+                }
+            ],
+            "time": 2,
+            "amount": 1
+        },
+        {
+            "name": "Express Transport Belt",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Fast Transport Belt",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 10
+                },
+                {
+                    "name": "Lubricant",
+                    "amount": 20
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Express Underground Belt",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Fast Underground Belt",
+                    "amount": 2
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 80
+                },
+                {
+                    "name": "Lubricant",
+                    "amount": 40
+                }
+            ],
+            "time": 2,
+            "amount": 2
+        },
+        {
+            "name": "Express Splitter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 10
+                },
+                {
+                    "name": "Fast Splitter",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 10
+                },
+                {
+                    "name": "Lubricant",
+                    "amount": 80
+                }
+            ],
+            "time": 2,
+            "amount": 1
+        },
+        {
+            "name": "Burner Inserter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Inserter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Long Handed Inserter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Inserter",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Fast Inserter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 4
+                },
+                {
+                    "name": "Inserter",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Filter Inserter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 1
+                },
+                {
+                    "name": "Fast Inserter",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Stack Inserter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 1
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 15
+                },
+                {
+                    "name": "Fast Inserter",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 15
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Stack Filter Inserter",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Stack Inserter",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Wooden Chest",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Wood",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Iron Chest",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 8
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Steel Chest",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Steel Plate",
+                    "amount": 8
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Active Provider Chest",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 1
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Steel Chest",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Iron Chest",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 1
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Steel Chest",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Storage Chest",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 1
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Steel Chest",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Requester Chest",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 1
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Steel Chest",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Rail",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Stick",
+                    "amount": 1
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 1
+                },
+                {
+                    "name": "Stone",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 2
+        },
+        {
+            "name": "Fluid Wagon",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 10
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 8
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 16
+                },
+                {
+                    "name": "Storage Tank",
+                    "amount": 1
+                }
+            ],
+            "time": 1.5,
+            "amount": 1
+        },
+        {
+            "name": "Pipe",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Pipe To Ground",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 5
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 10
+                }
+            ],
+            "time": 0.5,
+            "amount": 2
+        },
+        {
+            "name": "Storage Tank",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 20
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 3,
+            "amount": 1
+        },
+        {
+            "name": "Burner Mining Drill",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 3
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 3
+                }
+            ],
+            "time": 2,
+            "amount": 1
+        },
+        {
+            "name": "Electric Mining Drill",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 10
+                }
+            ],
+            "time": 2,
+            "amount": 1
+        },
+        {
+            "name": "Stone Furnace",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Stone",
+                    "amount": 5
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Steel Furnace",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Steel Plate",
+                    "amount": 6
+                },
+                {
+                    "name": "Stone Brick",
+                    "amount": 10
+                }
+            ],
+            "time": 3,
+            "amount": 1
+        },
+        {
+            "name": "Electric Furnace",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 10
+                },
+                {
+                    "name": "Stone Brick",
+                    "amount": 10
+                }
+            ],
+            "time": 5,
+            "amount": 1
+        },
+        {
+            "name": "Assembling Machine 1",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 9
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Assembling Machine 2",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Assembling Machine 1",
+                    "amount": 1
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 3
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 5
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Assembling Machine 3",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Assembling Machine 2",
+                    "amount": 2
+                },
+                {
+                    "name": "Speed Module",
+                    "amount": 4
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Lab",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 10
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 10
+                },
+                {
+                    "name": "Transport Belt",
+                    "amount": 4
+                }
+            ],
+            "time": 2,
+            "amount": 1
+        },
+        {
+            "name": "Centrifuge",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 100
+                },
+                {
+                    "name": "Concrete",
+                    "amount": 100
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 100
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 50
+                }
+            ],
+            "time": 4,
+            "amount": 1
+        },
+        {
+            "name": "Rocket Silo",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Concrete",
+                    "amount": 1000
+                },
+                {
+                    "name": "Electric Engine Unit",
+                    "amount": 200
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 100
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 200
+                }
+            ],
+            "time": 30,
+            "amount": 1
+        },
+        {
+            "name": "Oil refinery",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 10
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 10
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 10
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 15
+                },
+                {
+                    "name": "Stone Brick",
+                    "amount": 10
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Chemical plant",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 5
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 5
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 5,
+            "amount": 1
+        },
+        {
+            "name": "Pumpjack",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 10
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 10
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 5,
+            "amount": 1
+        },
+        {
+            "name": "Offshore Pump",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 2
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 1
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Pump",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Engine Unit",
+                    "amount": 1
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 1
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 2,
+            "amount": 1
+        },
+        {
+            "name": "Small Electric Pole",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Cable",
+                    "amount": 2
+                },
+                {
+                    "name": "Wood",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 2
+        },
+        {
+            "name": "Medium Electric Pole",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 2
+                },
+                {
+                    "name": "Iron Stick",
+                    "amount": 4
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Big Electric Pole",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Stick",
+                    "amount": 8
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Substation",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Copper Plate",
+                    "amount": 5
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 10
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Boiler",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Pipe",
+                    "amount": 4
+                },
+                {
+                    "name": "Stone Furnace",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Steam Engine",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 8
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 10
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 5
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Solar Panel",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 5
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 15
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Accumulator",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Battery",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 10,
+            "amount": 1
+        },
+        {
+            "name": "Lamp",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Cable",
+                    "amount": 3
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 1
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Nuclear Reactor",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 500
+                },
+                {
+                    "name": "Concrete",
+                    "amount": 500
+                },
+                {
+                    "name": "Copper Plate",
+                    "amount": 500
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 500
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Heat Pipe",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 20
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 10
+                }
+            ],
+            "time": 1,
+            "amount": 1
+        },
+        {
+            "name": "Heat Exchanger",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 100
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 10
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 10
+                }
+            ],
+            "time": 3,
+            "amount": 1
+        },
+        {
+            "name": "Steam Turbine",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 50
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 50
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 1
+                }
+            ],
+            "time": 3,
+            "amount": 1
+        },
+        {
+            "name": "Concrete",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Iron Ore",
+                    "amount": 1
+                },
+                {
+                    "name": "Stone Brick",
+                    "amount": 5
+                },
+                {
+                    "name": "Water",
+                    "amount": 100
+                }
+            ],
+            "time": 10,
+            "amount": 10
+        },
+        {
+            "name": "Car",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Engine Unit",
+                    "amount": 8
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 20
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 5
+                }
+            ],
+            "time": 2,
+            "amount": 1
+        },
+        {
+            "name": "Tank",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 10
+                },
+                {
+                    "name": "Engine Unit",
+                    "amount": 32
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 15
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 50
+                }
+            ],
+            "time": 5,
+            "amount": 1
+        },
+        {
+            "name": "Logistic Robot",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 2
+                },
+                {
+                    "name": "Flying Robot Frame",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Construction Robot",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 2
+                },
+                {
+                    "name": "Flying Robot Frame",
+                    "amount": 1
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Roboport",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 45
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 45
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 45
+                }
+            ],
+            "time": 5,
+            "amount": 1
+        },
+        {
+            "name": "Wall",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Stone Brick",
+                    "amount": 5
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Gun Turret",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 10
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 10
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 20
+                }
+            ],
+            "time": 8,
+            "amount": 1
+        },
+        {
+            "name": "Flamethrower Turret",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Engine Unit",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 15
+                },
+                {
+                    "name": "Pipe",
+                    "amount": 10
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 30
+                }
+            ],
+            "time": 20,
+            "amount": 1
+        },
+        {
+            "name": "Laser Turret",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Battery",
+                    "amount": 12
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 20
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 20
+                }
+            ],
+            "time": 20,
+            "amount": 1
+        },
+        {
+            "name": "Beacon",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Advanced Circuit",
+                    "amount": 20
+                },
+                {
+                    "name": "Copper Plate",
+                    "amount": 10
+                },
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 20
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 10
+                }
+            ],
+            "time": 15,
+            "amount": 1
+        },
+        {
+            "name": "Radar",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Electronic Circuit",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Gear Wheel",
+                    "amount": 5
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 10
+                }
+            ],
+            "time": 0.5,
+            "amount": 1
+        },
+        {
+            "name": "Low Density Structure",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Copper Plate",
+                    "amount": 20
+                },
+                {
+                    "name": "Plastic",
+                    "amount": 5
+                },
+                {
+                    "name": "Steel Plate",
+                    "amount": 2
+                }
+            ],
+            "time": 20,
+            "amount": 1
+        },
+        {
+            "name": "Rocket Fuel",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Light Oil",
+                    "amount": 10
+                },
+                {
+                    "name": "Solid Fuel",
+                    "amount": 10
+                }
+            ],
+            "time": 30,
+            "amount": 1
+        },
+        {
+            "name": "Rocket Part",
+            "producer": "Rocket Silo",
+            "resources": [
+                {
+                    "name": "Low Density Structure",
+                    "amount": 10
+                },
+                {
+                    "name": "Rocket Control Unit",
+                    "amount": 10
+                },
+                {
+                    "name": "Rocket Fuel",
+                    "amount": 10
+                }
+            ],
+            "time": 3,
+            "amount": 1
+        },
+        {
+            "name": "Rocket Control Unit",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Processing Unit",
+                    "amount": 1
+                },
+                {
+                    "name": "Speed Module",
+                    "amount": 1
+                }
+            ],
+            "time": 30,
+            "amount": 1
+        },
+        {
+            "name": "Satellite",
+            "producer": "Assembly Machine",
+            "resources": [
+                {
+                    "name": "Accumulator",
+                    "amount": 100
+                },
+                {
+                    "name": "Low Density Structure",
+                    "amount": 100
+                },
+                {
+                    "name": "Processing Unit",
+                    "amount": 100
+                },
+                {
+                    "name": "Radar",
+                    "amount": 5
+                },
+                {
+                    "name": "Rocket Fuel",
+                    "amount": 50
+                },
+                {
+                    "name": "Solar Panel",
+                    "amount": 100
+                }
+            ],
+            "time": 5,
+            "amount": 1
+        }
+    ]
+}
