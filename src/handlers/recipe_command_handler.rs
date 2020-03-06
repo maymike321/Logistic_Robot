@@ -74,16 +74,7 @@ impl CommandHandler for RecipeCommandHandler {
                         ))
                         .description(description)
                         .footer(|f| {
-                            let assembly_machine_level = match user_settings.assembly_machine_level {
-                                AssemblyMachineLevel::One => "One",
-                                AssemblyMachineLevel::Two => "Two",
-                                AssemblyMachineLevel::Three => "Three"
-                            };
-                            let furnace_level = match user_settings.furnace_level {
-                                FurnaceLevel::Stone => "Stone",
-                                FurnaceLevel::Steel => "Steel"
-                            };
-                            f.text(format!("Using Assembly Machine {} and {} Furnace", assembly_machine_level, furnace_level))
+                            f.text(format!("Using Assembly Machine {} and {} Furnace", user_settings.assembly_machine_level, user_settings.furnace_level))
                         })
                     }),
                     None => m.content(format!("Unable to find item with name *{}*", item_name)),
