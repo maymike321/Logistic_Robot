@@ -46,7 +46,7 @@
             "producer": "Furnace",
             "resources": [
                 {
-                    "name": "Iron Ore",
+                    "name": "Iron Plate",
                     "amount": 5
                 }
             ],
