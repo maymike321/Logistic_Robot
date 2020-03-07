@@ -16,8 +16,8 @@ impl CommandHandler for UserSettingsCommandHandler {
                     .embed(|e| {
                         e.fields(vec![
                             (
-                                "Assembly machine level:",
-                                user_settings.assembly_machine_level.to_string(),
+                                "Assembling machine level:",
+                                user_settings.assembling_machine_level.to_string(),
                                 false,
                             ),
                             (

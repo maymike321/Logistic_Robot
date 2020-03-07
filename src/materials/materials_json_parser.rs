@@ -79,7 +79,7 @@ fn parse_material(
 
 fn get_producer_type(s: &str) -> ProducerType {
     match s {
-        "Assembly Machine" => ProducerType::AssemblyMachine,
+        "Assembling Machine" => ProducerType::AssemblingMachine,
         "Furnace" => ProducerType::Furnace,
         "Chemical Plant" => ProducerType::ChemicalPlant,
         "Rocket Silo" => ProducerType::RocketSilo,

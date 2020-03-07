@@ -1,4 +1,4 @@
-use crate::enums::{AssemblyMachineLevel, FurnaceLevel};
+use crate::enums::{AssemblingMachineLevel, FurnaceLevel};
 use crate::handlers::command_handler::CommandHandler;
 use crate::handlers::flags::Flags;
 use crate::user_settings::{UserSettings, UserSettingsDatabase};
@@ -28,8 +28,8 @@ impl CommandHandler for UpdateSettingsCommandHandler {
                             }
                         }
                         user_settings_database.update(&message.author.name, |user_settings| {
-                            let assembly_machine_level = get_assembly_machine_level(&user_settings, &flags);
-                            if let Err(why) = assembly_machine_level { m.content(why); return; }
+                            let assembling_machine_level = get_assembling_machine_level(&user_settings, &flags);
+                            if let Err(why) = assembling_machine_level { m.content(why); return; }
 
                             let furnace_level = get_furnace_level(&user_settings, &flags);
                             if let Err(why) = furnace_level { m.content(why); return; }
@@ -43,7 +43,7 @@ impl CommandHandler for UpdateSettingsCommandHandler {
                             let ignore_raw_for_ratio = get_ignore_raw(&user_settings, &flags);
                             if let Err(why) = ignore_raw_for_ratio { m.content(why); return; }
 
-                            user_settings.assembly_machine_level = assembly_machine_level.unwrap();
+                            user_settings.assembling_machine_level = assembling_machine_level.unwrap();
                             user_settings.furnace_level = furnace_level.unwrap();
                             user_settings.whole_numbers = whole_numbers.unwrap();
                             user_settings.ignore_furnaces_for_ratio = ignore_furnaces_for_ratio.unwrap();
@@ -70,24 +70,24 @@ impl CommandHandler for UpdateSettingsCommandHandler {
     }
 }
 
-fn get_assembly_machine_level(
+fn get_assembling_machine_level(
     user_settings: &UserSettings,
     flags: &Flags,
-) -> Result<AssemblyMachineLevel, String> {
+) -> Result<AssemblingMachineLevel, String> {
     match flags.get("a") {
         Some(possible_flag_value) => match possible_flag_value {
             Some(flag_value) => match &*flag_value.to_lowercase() {
-                "one" => Ok(AssemblyMachineLevel::One),
-                "two" => Ok(AssemblyMachineLevel::Two),
-                "three" => Ok(AssemblyMachineLevel::Three),
+                "1" => Ok(AssemblingMachineLevel::One),
+                "2" => Ok(AssemblingMachineLevel::Two),
+                "3" => Ok(AssemblingMachineLevel::Three),
                 _ => Err(format!(
-                    "Error: Invalid assembly machine level *{}*",
+                    "Error: Invalid assembling machine level *{}*",
                     flag_value
                 )),
             },
             None => Err("No value found for -a flag".to_string()),
         },
-        None => Ok(user_settings.assembly_machine_level),
+        None => Ok(user_settings.assembling_machine_level),
     }
 }
 

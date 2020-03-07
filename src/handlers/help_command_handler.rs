@@ -37,7 +37,7 @@ fn create_help_message<'a, 'b>(message: &'a mut CreateMessage<'b>) -> &'a mut Cr
     message
         .embed(|e| {
             e.title("List of available commands:").fields(vec![
-                ("!recipe", "Gives the exact amount of assembly machines needed to create an item.\nExample: *!recipe logistic science pack*", false),
+                ("!recipe", "Gives the exact amount of assembling machines needed to create an item.\nExample: *!recipe logistic science pack*", false),
                 ("!user-settings", "Displays your current user settings, which modify !recipe calculations.\nType *!help user-settings* for more information.", false),
                 ("!update-settings", "Updates user settings.\nType *!help update-settings* for more information.", false)
             ])
@@ -66,11 +66,7 @@ fn create_update_settings_help_message<'a, 'b>(
 
 fn add_user_settings_flags(embed: &mut CreateEmbed) -> &mut CreateEmbed {
     embed.fields(vec![
-        (
-            "-a",
-            "Assembly machine level.\nValues: *One, Two, Three*",
-            false,
-        ),
+        ("-a", "Assembling machine level.\nValues: *1, 2, 3*", false),
         ("-f", "Furnace level.\nValues: *Stone, Steel*", false),
         (
             "-w",

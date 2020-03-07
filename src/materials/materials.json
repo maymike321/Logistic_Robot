@@ -119,7 +119,7 @@
         },
         {
             "name": "Iron Stick",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Plate",
@@ -131,7 +131,7 @@
         },
         {
             "name": "Iron Gear Wheel",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Plate",
@@ -143,7 +143,7 @@
         },
         {
             "name": "Copper Cable",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -155,7 +155,7 @@
         },
         {
             "name": "Electronic Circuit",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Cable",
@@ -171,7 +171,7 @@
         },
         {
             "name": "Advanced Circuit",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Cable",
@@ -191,7 +191,7 @@
         },
         {
             "name": "Processing Unit",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -211,7 +211,7 @@
         },
         {
             "name": "Engine Unit",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Gear Wheel",
@@ -231,7 +231,7 @@
         },
         {
             "name": "Electric Engine Unit",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -251,7 +251,7 @@
         },
         {
             "name": "Flying Robot Frame",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Battery",
@@ -275,7 +275,7 @@
         },
         {
             "name": "Empty Barrel",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Steel Plate",
@@ -287,7 +287,7 @@
         },
         {
             "name": "Explosives",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Coal",
@@ -327,7 +327,7 @@
         },
         {
             "name": "Automation Science Pack",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -343,7 +343,7 @@
         },
         {
             "name": "Logistic Science Pack",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Inserter",
@@ -359,7 +359,7 @@
         },
         {
             "name": "Chemical Science Pack",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -379,7 +379,7 @@
         },
         {
             "name": "Military Science Pack",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Grenade",
@@ -399,7 +399,7 @@
         },
         {
             "name": "Production Science Pack",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electric Furnace",
@@ -419,7 +419,7 @@
         },
         {
             "name": "Utility Science Pack",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Flying Robot Frame",
@@ -455,7 +455,7 @@
         },
         {
             "name": "Land Mine",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Explosives",
@@ -471,7 +471,7 @@
         },
         {
             "name": "Grenade",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Coal",
@@ -487,7 +487,7 @@
         },
         {
             "name": "Cluster Grenade",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Explosives",
@@ -507,7 +507,7 @@
         },
         {
             "name": "Defender Capsule",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -527,7 +527,7 @@
         },
         {
             "name": "Poison Capsule",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Coal",
@@ -547,7 +547,7 @@
         },
         {
             "name": "Slowdown Capsule",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Coal",
@@ -567,7 +567,7 @@
         },
         {
             "name": "Distractor Capsule",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -583,7 +583,7 @@
         },
         {
             "name": "Destroyer Capsule",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Distractor Capsule",
@@ -599,7 +599,7 @@
         },
         {
             "name": "Atomic Bomb",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Explosives",
@@ -619,7 +619,7 @@
         },
         {
             "name": "Firearm Magazine",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Plate",
@@ -631,7 +631,7 @@
         },
         {
             "name": "Piercing Rounds Magazine",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -651,7 +651,7 @@
         },
         {
             "name": "Shotgun Shells",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -667,7 +667,7 @@
         },
         {
             "name": "Piercing Shotgun Shells",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -687,7 +687,7 @@
         },
         {
             "name": "Rocket",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -707,7 +707,7 @@
         },
         {
             "name": "Explosive Rocket",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Explosives",
@@ -723,7 +723,7 @@
         },
         {
             "name": "Flamethrower Ammo",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Crude Oil",
@@ -739,7 +739,7 @@
         },
         {
             "name": "Cannon Shell",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Explosives",
@@ -759,7 +759,7 @@
         },
         {
             "name": "Explosive Cannon Shell",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Explosives",
@@ -779,7 +779,7 @@
         },
         {
             "name": "Artilery Shell",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Explosive Cannon Shell",
@@ -799,7 +799,7 @@
         },
         {
             "name": "Modular Armor",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -815,7 +815,7 @@
         },
         {
             "name": "Power Armor",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electric Engine Unit",
@@ -835,7 +835,7 @@
         },
         {
             "name": "Personal Battery",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Battery",
@@ -851,7 +851,7 @@
         },
         {
             "name": "Personal Battery MK2",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Personal Battery",
@@ -871,7 +871,7 @@
         },
         {
             "name": "Energy Shield",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -887,7 +887,7 @@
         },
         {
             "name": "Energy Shield MK2",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Energy Shield",
@@ -907,7 +907,7 @@
         },
         {
             "name": "Portable Solar Panel",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -927,7 +927,7 @@
         },
         {
             "name": "Portable Funsion Reactor",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Low Density Structure",
@@ -943,7 +943,7 @@
         },
         {
             "name": "Personal Laser Defense",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Laser Turret",
@@ -963,7 +963,7 @@
         },
         {
             "name": "Discharge Defense",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Laser Turret",
@@ -983,7 +983,7 @@
         },
         {
             "name": "Exoskeleton",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electric Engine Unit",
@@ -1003,7 +1003,7 @@
         },
         {
             "name": "Efficency Module",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1019,7 +1019,7 @@
         },
         {
             "name": "Efficency Module 2",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1039,7 +1039,7 @@
         },
         {
             "name": "Efficency Module 3",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1059,7 +1059,7 @@
         },
         {
             "name": "Productivity Module",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1075,7 +1075,7 @@
         },
         {
             "name": "Productivity Module 2",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1095,7 +1095,7 @@
         },
         {
             "name": "Productivity Module 3",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1115,7 +1115,7 @@
         },
         {
             "name": "Speed Module",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1131,7 +1131,7 @@
         },
         {
             "name": "Speed Module 2",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1151,7 +1151,7 @@
         },
         {
             "name": "Speed Module 3",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1171,7 +1171,7 @@
         },
         {
             "name": "Transport Belt",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Gear Wheel",
@@ -1187,7 +1187,7 @@
         },
         {
             "name": "Underground Belt",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Plate",
@@ -1203,7 +1203,7 @@
         },
         {
             "name": "Splitter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1223,7 +1223,7 @@
         },
         {
             "name": "Fast Transport Belt",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Gear Wheel",
@@ -1239,7 +1239,7 @@
         },
         {
             "name": "Fast Underground Belt",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Gear Wheel",
@@ -1255,7 +1255,7 @@
         },
         {
             "name": "Fast Splitter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1275,7 +1275,7 @@
         },
         {
             "name": "Express Transport Belt",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Fast Transport Belt",
@@ -1295,7 +1295,7 @@
         },
         {
             "name": "Express Underground Belt",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Fast Underground Belt",
@@ -1315,7 +1315,7 @@
         },
         {
             "name": "Express Splitter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1339,7 +1339,7 @@
         },
         {
             "name": "Burner Inserter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Gear Wheel",
@@ -1355,7 +1355,7 @@
         },
         {
             "name": "Inserter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1375,7 +1375,7 @@
         },
         {
             "name": "Long Handed Inserter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Inserter",
@@ -1395,7 +1395,7 @@
         },
         {
             "name": "Fast Inserter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1415,7 +1415,7 @@
         },
         {
             "name": "Filter Inserter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1431,7 +1431,7 @@
         },
         {
             "name": "Stack Inserter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1455,7 +1455,7 @@
         },
         {
             "name": "Stack Filter Inserter",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1471,7 +1471,7 @@
         },
         {
             "name": "Wooden Chest",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Wood",
@@ -1483,7 +1483,7 @@
         },
         {
             "name": "Iron Chest",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Plate",
@@ -1495,7 +1495,7 @@
         },
         {
             "name": "Steel Chest",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Steel Plate",
@@ -1507,7 +1507,7 @@
         },
         {
             "name": "Active Provider Chest",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1527,7 +1527,7 @@
         },
         {
             "name": "Iron Chest",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1547,7 +1547,7 @@
         },
         {
             "name": "Storage Chest",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1567,7 +1567,7 @@
         },
         {
             "name": "Requester Chest",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1587,7 +1587,7 @@
         },
         {
             "name": "Rail",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Stick",
@@ -1607,7 +1607,7 @@
         },
         {
             "name": "Fluid Wagon",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Gear Wheel",
@@ -1631,7 +1631,7 @@
         },
         {
             "name": "Pipe",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Plate",
@@ -1643,7 +1643,7 @@
         },
         {
             "name": "Pipe To Ground",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Plate",
@@ -1659,7 +1659,7 @@
         },
         {
             "name": "Storage Tank",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Plate",
@@ -1675,7 +1675,7 @@
         },
         {
             "name": "Burner Mining Drill",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Gear Wheel",
@@ -1691,7 +1691,7 @@
         },
         {
             "name": "Electric Mining Drill",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1711,7 +1711,7 @@
         },
         {
             "name": "Stone Furnace",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Stone",
@@ -1723,7 +1723,7 @@
         },
         {
             "name": "Steel Furnace",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Steel Plate",
@@ -1739,7 +1739,7 @@
         },
         {
             "name": "Electric Furnace",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1759,7 +1759,7 @@
         },
         {
             "name": "Assembling Machine 1",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1779,7 +1779,7 @@
         },
         {
             "name": "Assembling Machine 2",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Assembling Machine 1",
@@ -1803,7 +1803,7 @@
         },
         {
             "name": "Assembling Machine 3",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Assembling Machine 2",
@@ -1819,7 +1819,7 @@
         },
         {
             "name": "Lab",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1839,7 +1839,7 @@
         },
         {
             "name": "Centrifuge",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -1863,7 +1863,7 @@
         },
         {
             "name": "Rocket Silo",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Concrete",
@@ -1887,7 +1887,7 @@
         },
         {
             "name": "Oil refinery",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1915,7 +1915,7 @@
         },
         {
             "name": "Chemical plant",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1939,7 +1939,7 @@
         },
         {
             "name": "Pumpjack",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1963,7 +1963,7 @@
         },
         {
             "name": "Offshore Pump",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -1983,7 +1983,7 @@
         },
         {
             "name": "Pump",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Engine Unit",
@@ -2003,7 +2003,7 @@
         },
         {
             "name": "Small Electric Pole",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Cable",
@@ -2019,7 +2019,7 @@
         },
         {
             "name": "Medium Electric Pole",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -2039,7 +2039,7 @@
         },
         {
             "name": "Big Electric Pole",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -2059,7 +2059,7 @@
         },
         {
             "name": "Substation",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -2079,7 +2079,7 @@
         },
         {
             "name": "Boiler",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Pipe",
@@ -2095,7 +2095,7 @@
         },
         {
             "name": "Steam Engine",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Gear Wheel",
@@ -2115,7 +2115,7 @@
         },
         {
             "name": "Solar Panel",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -2135,7 +2135,7 @@
         },
         {
             "name": "Accumulator",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Battery",
@@ -2151,7 +2151,7 @@
         },
         {
             "name": "Lamp",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Cable",
@@ -2171,7 +2171,7 @@
         },
         {
             "name": "Nuclear Reactor",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -2195,7 +2195,7 @@
         },
         {
             "name": "Heat Pipe",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -2211,7 +2211,7 @@
         },
         {
             "name": "Heat Exchanger",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -2231,7 +2231,7 @@
         },
         {
             "name": "Steam Turbine",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -2251,7 +2251,7 @@
         },
         {
             "name": "Concrete",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Iron Ore",
@@ -2271,7 +2271,7 @@
         },
         {
             "name": "Car",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Engine Unit",
@@ -2291,7 +2291,7 @@
         },
         {
             "name": "Tank",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -2315,7 +2315,7 @@
         },
         {
             "name": "Logistic Robot",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -2331,7 +2331,7 @@
         },
         {
             "name": "Construction Robot",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -2347,7 +2347,7 @@
         },
         {
             "name": "Roboport",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -2367,7 +2367,7 @@
         },
         {
             "name": "Wall",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Stone Brick",
@@ -2379,7 +2379,7 @@
         },
         {
             "name": "Gun Turret",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -2399,7 +2399,7 @@
         },
         {
             "name": "Flamethrower Turret",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Engine Unit",
@@ -2423,7 +2423,7 @@
         },
         {
             "name": "Laser Turret",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Battery",
@@ -2443,7 +2443,7 @@
         },
         {
             "name": "Beacon",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Advanced Circuit",
@@ -2467,7 +2467,7 @@
         },
         {
             "name": "Radar",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Electronic Circuit",
@@ -2487,7 +2487,7 @@
         },
         {
             "name": "Low Density Structure",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Copper Plate",
@@ -2507,7 +2507,7 @@
         },
         {
             "name": "Rocket Fuel",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Light Oil",
@@ -2543,7 +2543,7 @@
         },
         {
             "name": "Rocket Control Unit",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Processing Unit",
@@ -2559,7 +2559,7 @@
         },
         {
             "name": "Satellite",
-            "producer": "Assembly Machine",
+            "producer": "Assembling Machine",
             "resources": [
                 {
                     "name": "Accumulator",

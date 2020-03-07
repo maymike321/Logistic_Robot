@@ -1,11 +1,11 @@
 use crate::enums::FurnaceLevel;
-use crate::enums::AssemblyMachineLevel;
+use crate::enums::AssemblingMachineLevel;
 use std::collections::HashMap;
 use serenity::prelude::*;
 
 #[derive(Clone, Debug)]
 pub struct UserSettings {
-    pub assembly_machine_level: AssemblyMachineLevel,
+    pub assembling_machine_level: AssemblingMachineLevel,
     pub furnace_level: FurnaceLevel,
     pub whole_numbers: bool,
     pub ignore_furnaces_for_ratio: bool,
@@ -14,7 +14,7 @@ pub struct UserSettings {
 impl Default for UserSettings {
     fn default() -> Self {
         UserSettings { 
-            assembly_machine_level: AssemblyMachineLevel::One, 
+            assembling_machine_level: AssemblingMachineLevel::One, 
             furnace_level: FurnaceLevel::Stone,
             whole_numbers: false,
             ignore_furnaces_for_ratio: false, 

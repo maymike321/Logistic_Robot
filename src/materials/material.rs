@@ -1,4 +1,4 @@
-use crate::enums::{AssemblyMachineLevel, FurnaceLevel, ProducerType};
+use crate::enums::{AssemblingMachineLevel, FurnaceLevel, ProducerType};
 use crate::recipe::Recipe;
 use crate::total_raw_result::*;
 use crate::user_settings::*;
@@ -51,7 +51,7 @@ impl Material {
                 Material::update_raw(&mut total_raw, product_result.total_raw, product_per_item);
             }
             let production_modifier = Material::calculate_production_modifier(
-                &user_settings.assembly_machine_level,
+                &user_settings.assembling_machine_level,
                 &user_settings.furnace_level,
                 &item.recipe.producer_type,
             );
@@ -72,7 +72,7 @@ impl Material {
     }
 
     fn calculate_production_modifier(
-        assembly_machine_level: &AssemblyMachineLevel,
+        assembling_machine_level: &AssemblingMachineLevel,
         furnace_level: &FurnaceLevel,
         producer_type: &Option<ProducerType>,
     ) -> Fraction {
@@ -81,10 +81,10 @@ impl Material {
                 FurnaceLevel::Stone => Fraction::from(1),
                 FurnaceLevel::Steel => Fraction::from(2),
             },
-            Some(ProducerType::AssemblyMachine) => match assembly_machine_level {
-                AssemblyMachineLevel::One => Fraction::from(0.5),
-                AssemblyMachineLevel::Two => Fraction::from(0.75),
-                AssemblyMachineLevel::Three => Fraction::from(1.25),
+            Some(ProducerType::AssemblingMachine) => match assembling_machine_level {
+                AssemblingMachineLevel::One => Fraction::from(0.5),
+                AssemblingMachineLevel::Two => Fraction::from(0.75),
+                AssemblingMachineLevel::Three => Fraction::from(1.25),
             },
             _ => Fraction::from(1),
         }

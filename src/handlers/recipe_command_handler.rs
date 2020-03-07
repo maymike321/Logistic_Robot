@@ -74,7 +74,7 @@ impl CommandHandler for RecipeCommandHandler {
                         ))
                         .description(description)
                         .footer(|f| {
-                            f.text(format!("Using Assembly Machine {} and {} Furnace", user_settings.assembly_machine_level, user_settings.furnace_level))
+                            f.text(format!("Using Assembling Machine {} and {} Furnace", user_settings.assembling_machine_level, user_settings.furnace_level))
                         })
                     }),
                     None => m.content(format!("Unable to find item with name *{}*", item_name)),
@@ -90,10 +90,10 @@ impl CommandHandler for RecipeCommandHandler {
 
 fn get_producer_type_name(producer_type: ProducerType) -> String {
     match producer_type {
-        ProducerType::AssemblyMachine => "Assembly Machine".to_string(),
+        ProducerType::AssemblingMachine => "Assembling Machine".to_string(),
         ProducerType::ChemicalPlant => "Chemical Plant".to_string(),
         ProducerType::Furnace => "Furnace".to_string(),
-        ProducerType::RocketSilo => "Rocked Silo".to_string(),
+        ProducerType::RocketSilo => "Rocket Silo".to_string(),
     }
 }
 
