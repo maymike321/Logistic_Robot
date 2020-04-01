@@ -34,13 +34,13 @@ impl UserSettingsDatabase {
         UserSettingsDatabase { settings_hash_map: HashMap::new() }
     }
 
-    pub fn update<F>(&mut self, name: &str, update_fun: F) where F: FnOnce(&mut UserSettings) {
+    pub fn update<F>(&mut self, name: &str, update_fn: F) where F: FnOnce(&mut UserSettings) {
         if let None = self.settings_hash_map.get(name) {
             self.settings_hash_map.insert(name.to_string(), UserSettings::default());
         }
         self.settings_hash_map
             .entry(name.to_string())
-            .and_modify(update_fun);
+            .and_modify(update_fn);
     }
 
     pub fn get(&self, name: &str) -> UserSettings {
