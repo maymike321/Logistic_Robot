@@ -37,7 +37,7 @@ fn create_help_message<'a, 'b>(message: &'a mut CreateMessage<'b>) -> &'a mut Cr
     message
         .embed(|e| {
             e.title("List of available commands:").fields(vec![
-                ("!recipe", "Gives the exact amount of assembling machines needed to create an item.\nExample: *!recipe logistic science pack*", false),
+                ("!recipe", "Gives the exact amount of machines needed to create an item.\nExample: *!recipe logistic science pack*\nAdd -a x to calculate for x items a second.\nExample: *!recipe logistic science pack -a 5*", false),
                 ("!user-settings", "Displays your current user settings, which modify !recipe calculations.\nType *!help user-settings* for more information.", false),
                 ("!update-settings", "Updates user settings.\nType *!help update-settings* for more information.", false)
             ])
@@ -59,7 +59,7 @@ fn create_update_settings_help_message<'a, 'b>(
     message
         .embed(|e| {
             e.title("Update settings:")
-                .description("Updates user settings which are used to calculate ratios.\n\nExample: *!update-settings -a three -f stone*\n\nAvailable flags:");
+                .description("Updates user settings which are used to calculate ratios.\n\nExample: *!update-settings -a 3 -f stone*\n\nAvailable flags:");
             add_user_settings_flags(e)
         })
 }
