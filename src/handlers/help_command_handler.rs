@@ -1,36 +1,35 @@
-use crate::handlers::command_handler::CommandHandler;
+use serenity::framework::standard::CommandResult;
+use serenity::framework::standard::macros::{command};
 use serenity::{
     builder::{CreateEmbed, CreateMessage},
     model::channel::Message,
-    prelude::*,
+    prelude::Context,
 };
 
-pub struct HelpCommandHandler;
+#[command]
+pub async fn help(context: &Context, message: &Message) -> CommandResult {
+    let tokens: Vec<&str> = message.content.split_ascii_whitespace().collect();
+    if tokens.first().unwrap_or(&"").to_lowercase() == "!help" {
+        let sent_message = match tokens.get(1) {
+            None => message
+                .channel_id
+                .send_message(&context.http, create_help_message).await,
+            Some(&"user-settings") => message
+                .channel_id
+                .send_message(&context.http, create_settings_help_message).await,
+            Some(&"update-settings") => message
+                .channel_id
+                .send_message(&context.http, create_update_settings_help_message).await,
+            Some(_) => message
+                .channel_id
+                .send_message(&context.http, create_help_message).await,
+        };
 
-impl CommandHandler for HelpCommandHandler {
-    fn handle_command(&self, context: &Context, message: &Message) {
-        let tokens: Vec<&str> = message.content.split_ascii_whitespace().collect();
-        if tokens.first().unwrap_or(&"").to_lowercase() == "!help" {
-            let sent_message = match tokens.get(1) {
-                None => message
-                    .channel_id
-                    .send_message(&context.http, create_help_message),
-                Some(&"user-settings") => message
-                    .channel_id
-                    .send_message(&context.http, create_settings_help_message),
-                Some(&"update-settings") => message
-                    .channel_id
-                    .send_message(&context.http, create_update_settings_help_message),
-                Some(_) => message
-                    .channel_id
-                    .send_message(&context.http, create_help_message),
-            };
-
-            if let Err(why) = sent_message {
-                println!("Error sending message: {:?}", why);
-            }
+        if let Err(why) = sent_message {
+            println!("Error sending message: {:?}", why);
         }
     }
+    Ok(())
 }
 
 fn create_help_message<'a, 'b>(message: &'a mut CreateMessage<'b>) -> &'a mut CreateMessage<'b> {
