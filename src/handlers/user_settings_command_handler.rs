@@ -4,6 +4,12 @@ use serenity::framework::standard::macros::{command};
 use serenity::{model::channel::Message, prelude::*};
 
 #[command]
+#[help_available]
+#[description("Gives the exact amount of machines needed to create an item.")]
+#[usage("!recipe *item name* or !recipe *item name* -a *amount per second*")]
+#[example("!recipe logistic science pack*")]
+#[example("!recipe logistic science pack -a 5*")]
+#[aliases("user-settings")]
 pub async fn user_settings(context: &Context, message: &Message) -> CommandResult {
     let mut data = context.data.write().await;
     let user_settings_database = data.get_mut::<UserSettingsDatabase>().unwrap();

@@ -9,12 +9,14 @@ use serenity::{model::channel::Message, prelude::Context};
 
 #[command]
 pub async fn recipe(context: &Context, message: &Message) -> CommandResult {
-    let tokens: Vec<&str> = message.content.split_ascii_whitespace().collect();
+    let tokens_with_command: Vec<&str> = message.content.split_ascii_whitespace().collect();
+    let blank_vec: Vec<&str> = Vec::new();
+    let (_, tokens) = tokens_with_command.split_first().unwrap_or((&"", &blank_vec));
     let mut amount = 1;
     let command;
-    if tokens[tokens.len() - 2] == "-a" {
+    if tokens.len() > 2 && tokens[tokens.len() - 2] == "-a" {
         let split = tokens.split_at(tokens.len() - 2);
-        command = split.0.to_vec();
+        command = split.0;
         amount = split.1[1].parse::<i32>().unwrap_or(1);
     }
     else {

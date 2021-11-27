@@ -16,17 +16,22 @@ mod total_raw_result;
 mod user_settings;
 
 #[group]
-#[commands(help, recipe, user_settings, update_settings)]
+#[commands(recipe, user_settings, update_settings, help)]
 struct General;
 
 #[tokio::main]
 async fn main() {
     use materials::material_database::MaterialDatabase;
     let framework = StandardFramework::new()
-        .configure(|c| c.prefix("!"))
+        .configure(|c| {
+            c.prefix("!")
+        })
         .group(&GENERAL_GROUP);
     let token = std::env::var("TOKEN").expect("TOKEN environment variable not set.");
-    let mut client = serenity::Client::builder(token).framework(framework).await.expect("Error creating client");
+    let mut client = serenity::Client::builder(token)
+        .framework(framework)
+        .await
+        .expect("Error creating client");
     {
         let mut data = client.data.write().await;
 

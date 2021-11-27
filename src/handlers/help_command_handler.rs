@@ -9,25 +9,23 @@ use serenity::{
 #[command]
 pub async fn help(context: &Context, message: &Message) -> CommandResult {
     let tokens: Vec<&str> = message.content.split_ascii_whitespace().collect();
-    if tokens.first().unwrap_or(&"").to_lowercase() == "!help" {
-        let sent_message = match tokens.get(1) {
-            None => message
-                .channel_id
-                .send_message(&context.http, create_help_message).await,
-            Some(&"user-settings") => message
-                .channel_id
-                .send_message(&context.http, create_settings_help_message).await,
-            Some(&"update-settings") => message
-                .channel_id
-                .send_message(&context.http, create_update_settings_help_message).await,
-            Some(_) => message
-                .channel_id
-                .send_message(&context.http, create_help_message).await,
-        };
+    let sent_message = match tokens.get(1) {
+        None => message
+            .channel_id
+            .send_message(&context.http, create_help_message).await,
+        Some(&"user-settings") => message
+            .channel_id
+            .send_message(&context.http, create_settings_help_message).await,
+        Some(&"update-settings") => message
+            .channel_id
+            .send_message(&context.http, create_update_settings_help_message).await,
+        Some(_) => message
+            .channel_id
+            .send_message(&context.http, create_help_message).await,
+    };
 
-        if let Err(why) = sent_message {
-            println!("Error sending message: {:?}", why);
-        }
+    if let Err(why) = sent_message {
+        println!("Error sending message: {:?}", why);
     }
     Ok(())
 }

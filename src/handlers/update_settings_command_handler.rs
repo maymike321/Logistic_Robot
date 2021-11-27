@@ -7,12 +7,14 @@ use serenity::{model::channel::Message, prelude::*};
 
 #[command]
 pub async fn update_settings(context: &Context, message: &Message) -> CommandResult {
-    let command: Vec<&str> = message.content.split_ascii_whitespace().collect();
+    let tokens_with_command: Vec<&str> = message.content.split_ascii_whitespace().collect();
+    let blank_vec: Vec<&str> = Vec::new();
+    let (_, tokens) = tokens_with_command.split_first().unwrap_or((&"", &blank_vec));
     let mut data = context.data.write().await;
     let user_settings_database = data.get_mut::<UserSettingsDatabase>().unwrap();
     let sent_message = message.channel_id.send_message(&context.http, |m| {
         let mut parsed_successfully = false;
-        match Flags::new(command.to_vec()) {
+        match Flags::new(tokens.to_vec()) {
             Ok(flags) => {
                 for (flag_name, _possible_flag_value) in flags.get_all() {
                     match flag_name {
