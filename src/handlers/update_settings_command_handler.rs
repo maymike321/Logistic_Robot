@@ -6,6 +6,7 @@ use crate::user_settings::{UserSettings, UserSettingsDatabase};
 use serenity::{model::channel::Message, prelude::*};
 
 #[command]
+#[aliases("update-settings")]
 pub async fn update_settings(context: &Context, message: &Message) -> CommandResult {
     let tokens_with_command: Vec<&str> = message.content.split_ascii_whitespace().collect();
     let blank_vec: Vec<&str> = Vec::new();
