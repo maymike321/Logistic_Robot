@@ -658,7 +658,9 @@
                     "name": "Steel Plate",
                     "amount": 40
                 }
-            ]
+            ],
+            "time": 4,
+            "amount": 1
         },
         {
             "name": "Car",
